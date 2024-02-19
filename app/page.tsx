@@ -27,10 +27,11 @@ export default async function PricingPage() {
     .order('unit_amount', { referencedTable: 'prices' });
 
   return (
-    <Pricing
-      user={user}
-      products={products ?? []}
-      subscription={subscription}
-    />
+    // <Pricing
+    //   user={user}
+    //   products={products ?? []}
+    //   subscription={subscription}
+    // />
+    <>hello</>
   );
 }
