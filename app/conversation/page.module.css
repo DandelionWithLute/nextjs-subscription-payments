@@ -1,0 +1,70 @@
+.mainContainer {
+  display: flex;
+  box-sizing: border-box;
+  overflow: hidden;
+  background-color: whitesmoke;
+}
+
+.firstSubContainer {
+  width: 30%;
+  min-width: 300px;
+  display: flex;
+
+  border: 5px solid #bbb;
+  border-radius: 25px;
+}
+
+.secondSubContainer {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar {
+  width: 25vw;
+  height: 100vh;
+  /* width: 480px; */
+}
+
+.talksContainer {
+  /* width: 1440px; */
+  width: 100%;
+  height: 80vh;
+
+  border: 5px solid #bbb;
+  border-radius: 25px;
+}
+
+.inputContainer {
+  width: 100%;
+  min-height: 300px;
+  height: 20vh;
+  box-sizing: border-box;
+  display: flex;
+  border: 5px solid #bbb;
+  border-radius: 25px;
+}
+
+.inputBar {
+  width: 100%;
+  height: 100%;
+}
+
+input {
+  width: 75%;
+  height: 75%;
+  font-size: 36px;
+  margin-top: 50px;
+  margin-left: 50px;
+  border-radius: 25px;
+}
+
+.inputButton {
+  border: #bbb;
+  border-radius: 25px;
+  height: 75%;
+  margin-left: 50px;
+  padding: 50px;
+  font-size: 22px;
+  background-color: greenyellow;
+}

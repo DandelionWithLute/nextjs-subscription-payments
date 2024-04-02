@@ -1,5 +1,6 @@
 import Pricing from '@/components/ui/Pricing/Pricing';
 import { createClient } from '@/utils/supabase/server';
+import Image from 'next/image';
 
 export default async function PricingPage() {
   const supabase = createClient();
@@ -27,10 +28,20 @@ export default async function PricingPage() {
     .order('unit_amount', { referencedTable: 'prices' });
 
   return (
-    <Pricing
-      user={user}
-      products={products ?? []}
-      subscription={subscription}
-    />
+    <div className="flex">
+      <div className="min-w-[800px]">
+        <Image
+          src="/images/background.jpg"
+          alt="backgroundhere"
+          width={1920}
+          height={1080}
+        />
+      </div>
+    </div>
+    // <Pricing
+    //   user={user}
+    //   products={products ?? []}
+    //   subscription={subscription}
+    // />
   );
 }

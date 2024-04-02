@@ -1,3 +1,21 @@
+Who is Mark Zuckerberg?
+What is Google?
+How to bake bread?
+How to learn Javascript?
+
+
+Passing Data Between Frontend and Backend | Node.js
+https://www.youtube.com/watch?v=5TxF9PQaq4U
+
+const formData = await request.formData()
+https://nextjs.org/docs/app/building-your-application/routing/route-handlers#request-body
+
+process.env.TARGET issues
+TypeScript Warning No overload matches this call. #1451
+https://github.com/nodemailer/nodemailer/issues/1451
+
+
+
 # Next.js Subscription Payments Starter
 
 The all-in-one starter kit for high-performance SaaS applications.
